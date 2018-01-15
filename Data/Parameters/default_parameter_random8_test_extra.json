@@ -1,0 +1,329 @@
+{
+	"challenge" : "1A",
+	"datatype" : "regression",
+	"experiment_type" : "train-test",
+	"synergyscore_methods" : "SUM_SYN_ANT_LOEWE",
+	"machinelearning_method" : "ETC",
+	"classification_threshold" : [0, -0],
+	"prediction" : 1,
+	"cross-validation" : 0,
+	"Clist" : [900],
+	"gammalist" : ["auto"],
+	"iteration" : 1,
+	"features" : {		
+		"drug_target" : {
+			"bool" : 1,
+			"filepath" : "drug/merck_drug_target_azform_new2.csv"
+		},
+		"expected_synergy_scores":{
+			"bool" : 1,
+			"all" : 0,
+			"folderpath": "/expected_synergy_scores/",
+			"total" : "../Data/featureFolder/cell/total.csv",
+			"group_by" : [
+				{
+					"name" : "CELL_LINE",
+					"bool" : 1
+				},{
+					"name" : "COMPOUND_A",
+					"bool" : 1
+				},{
+					"name" : "COMBINATION_ID",
+					"bool" : 1
+				},{
+					"name" : "CELL_LINE_COMPOUND_A",
+					"bool" : 1
+				}
+			],
+			"methods" : [
+				{	
+					"name" : "mean",
+					"bool" : 1
+				},{	
+					"name" : "median",
+					"bool" : 1
+				},{	
+					"name" : "std",
+					"bool" :0
+				}
+			]
+		},
+		"ic50" : {
+			"bool" : 1
+		},
+		"einf" : {
+			"bool" : 1
+		},		
+		"dss" : {
+			"bool" : 1,
+			"filepath" : "dss/Merck_DSS_data2.csv"
+		},
+		"additionscore" : {
+			"bool" : 1,
+			"filepath" : "additionscore/additionscore.csv"
+		},
+		"synthetic_lethality" : {
+			"bool" : 1,
+			"filepath" : "synthetic_lethality/synthetic_lethality_cellline_drug_list_merged.csv",
+			"slfilepath" : "synthetic_lethality/sl_human.csv",
+			"mutation_filepath" : "mutation/Merck_mutations_merckclname.csv",
+			"gex_filepath" : "gex/Merck_expression_matrix.csv",
+			"drugtarget_filepath":"drug/merck_drug_target_azform_new2.csv"
+		},
+		"mutation" : {
+			"bool" : 1,
+			"filepath" : "mutation/Merck_mutations_merckclname.csv",
+			"all" : 0,
+			"pathways" : [
+				{
+					"name": "best",
+					"bool" : 0,
+					"filepath" : "gex/genesets/best.txt"
+				},{
+					"name": "angiogenesis",
+					"bool" : 1,
+					"filepath" : "gex/genesets/angiognesis.txt"
+				},{
+					"name": "cell_cycle",
+					"bool" : 1,
+					"filepath" : "gex/genesets/cell_cycle_control.txt"	
+				},{
+					"name": "dna_damage",
+					"bool" : 1,
+					"filepath" : "gex/genesets/dna_damage_response.txt"	
+				},{
+					"name": "folate",
+					"bool" : 1,
+					"filepath" : "gex/genesets/Folate_transport.txt"	
+				},{
+					"name": "invasion",
+					"bool" : 1,
+					"filepath" : "gex/genesets/invasion_and_metastasis.txt"
+				},{
+					"name": "notch",
+					"bool" : 1,
+					"filepath" : "gex/genesets/Notch_signaling.txt"
+				},{
+					"name": "other",
+					"bool" : 1,
+					"filepath" : "gex/genesets/other_growth_proliferation_signaling.txt"	
+				},{
+					"name": "p53",
+					"bool" : 1,
+					"filepath" : "gex/genesets/p53_signaling.txt"
+				},{
+					"name": "pi3k",
+					"bool" : 1,
+					"filepath" : "gex/genesets/pi3k_akt_mtor_signaling.txt"
+				},{
+					"name": "ras",
+					"bool" : 1,
+					"filepath" : "gex/genesets/ras_raf_mek_erk_signaling.txt"
+				},{
+					"name": "ribosomal",
+					"bool" : 1,
+					"filepath" : "gex/genesets/ribosomal_growth.txt"
+				},{
+					"name": "rtk",
+					"bool" : 1,
+					"filepath" : "gex/genesets/rtk_signaling_family.txt"
+				},{
+					"name": "survival",
+					"bool" : 1,
+					"filepath" : "gex/genesets/survival_cell_death_regulation.txt"	
+				},{
+					"name": "telomere",
+					"bool" : 1,
+					"filepath" : "gex/genesets/telomere_maintenance.txt"
+				},{
+					"name": "prerher2",
+					"bool" : 0,
+					"filepath" : "gex/genesets/prerher2.txt"
+				}
+			]
+		},
+		"cnv" : {
+			"bool" : 1,
+			"all" : 0,
+			"pathways" : [{
+					"name": "best",
+					"bool" : 0,
+					"filepath" : "cnv/best1-1_twocol.csv"
+				},{
+					"name": "angiogenesis",
+					"bool" : 1,
+					"filepath" : "cnv/angiogenesis1-1_twocol.csv"
+				},{
+					"name": "cell_cycle",
+					"bool" : 1,
+					"filepath" : "cnv/Cell Cycle Control1-1_twocol.csv"	
+				},{
+					"name": "dna_damage",
+					"bool" : 1,
+					"filepath" : "cnv/DNA damage response1-1_twocol.csv"	
+				},{
+					"name": "folate",
+					"bool" : 1,
+					"filepath" : "cnv/folate transport1-1_twocol.csv"	
+				},{
+					"name": "invasion",
+					"bool" : 1,
+					"filepath" : "cnv/invasion and metastasis1-1_twocol.csv"
+				},{
+					"name": "notch",
+					"bool" : 1,
+					"filepath" : "cnv/Notch_signaling1-1_twocol.csv"
+				},{
+					"name": "other",
+					"bool" : 1,
+					"filepath" : "cnv/other growth_proliferation1-1_twocol.csv"	
+				},{
+					"name": "p53",
+					"bool" : 1,
+					"filepath" : "cnv/p53 signaling1-1_twocol.csv"
+				},{
+					"name": "pi3k",
+					"bool" : 1,
+					"filepath" : "cnv/pi3k_akt_mtor_signaling1-1_twocol.csv"
+				},{
+					"name": "ras",
+					"bool" : 1,
+					"filepath" : "cnv/ras raf mek erk signaling1-1_twocol.csv"
+				},{
+					"name": "ribosomal",
+					"bool" : 1,
+					"filepath" : "cnv/ribosomal protein synthesis1-1_twocol.csv"
+				},{
+					"name": "rtk",
+					"bool" : 1,
+					"filepath" : "cnv/RTK signaling family1-1_twocol.csv"
+				},{
+					"name": "survival",
+					"bool" : 1,
+					"filepath" : "cnv/survival_cell death1-1_twocol.csv"	
+				},{
+					"name": "telomere",
+					"bool" : 1,
+					"filepath" : "cnv/telomere maintenance1-1_twocol.csv"
+				}
+			]
+			
+		},
+		"gex" : {
+			"bool" : 1,
+			"all" : 0,
+			"filepath" : "gex/Merck_expression_matrix.csv",
+			"pathways" : [
+				{
+					"name": "best",
+					"bool" : 0,
+					"filepath" : "gex/genesets/best.txt"
+				},{
+					"name": "angiogenesis",
+					"bool" : 1,
+					"filepath" : "gex/genesets/angiognesis.txt"
+				},{
+					"name": "cell_cycle",
+					"bool" : 1,
+					"filepath" : "gex/genesets/cell_cycle_control.txt"	
+				},{
+					"name": "dna_damage",
+					"bool" : 1,
+					"filepath" : "gex/genesets/dna_damage_response.txt"	
+				},{
+					"name": "folate",
+					"bool" : 1,
+					"filepath" : "gex/genesets/Folate_transport.txt"	
+				},{
+					"name": "invasion",
+					"bool" : 1,
+					"filepath" : "gex/genesets/invasion_and_metastasis.txt"
+				},{
+					"name": "notch",
+					"bool" : 1,
+					"filepath" : "gex/genesets/Notch_signaling.txt"
+				},{
+					"name": "other",
+					"bool" : 1,
+					"filepath" : "gex/genesets/other_growth_proliferation_signaling.txt"	
+				},{
+					"name": "p53",
+					"bool" : 1,
+					"filepath" : "gex/genesets/p53_signaling.txt"
+				},{
+					"name": "pi3k",
+					"bool" : 1,
+					"filepath" : "gex/genesets/pi3k_akt_mtor_signaling.txt"
+				},{
+					"name": "ras",
+					"bool" : 1,
+					"filepath" : "gex/genesets/ras_raf_mek_erk_signaling.txt"
+				},{
+					"name": "ribosomal",
+					"bool" : 1,
+					"filepath" : "gex/genesets/ribosomal_growth.txt"
+				},{
+					"name": "rtk",
+					"bool" : 1,
+					"filepath" : "gex/genesets/rtk_signaling_family.txt"
+				},{
+					"name": "survival",
+					"bool" : 1,
+					"filepath" : "gex/genesets/survival_cell_death_regulation.txt"	
+				},{
+					"name": "telomere",
+					"bool" : 1,
+					"filepath" : "gex/genesets/telomere_maintenance.txt"
+				},{
+					"name": "prerher2",
+					"bool" : 0,
+					"filepath" : "gex/genesets/prerher2.txt"
+				}
+			]
+			
+		}
+	},
+	
+	"input_files":{
+		"fold_files_path" : "10fold",
+		"input_files_path" : "inputdataset",
+		"train_file_path" : "train",
+		"validation_file_path" : "validation",
+		"finaltrain_file_path" : "finaltrain",
+		"finaltest_file_path" : "finaltest",
+		"practrain_file_path" : "total",
+		"practest_file_path" : "practicaltest",
+		"total_file_path" : "../Data/featureFolder/cell/total.csv"
+
+	},
+	"folders" : {
+		"result_file_folder" : "../Results/",
+		"data_file_folder" : "../Data/inputdataset/",
+		"feature_file_folder" : "../Data/featureFolder/",
+		"score" : "etc/prediction/",
+		"feature_index" : "features/",
+		"prediction" : "etc/prediction/",
+		"hdf" : "hdf/",
+		"answer" : "etc/answer",
+		"libfm" : "etc/libfm/"
+	},
+	"output_files" : {
+		"libfm_merged" : "total.libfm",
+		"libfm_fold" : "fold.libfm",
+		"libfm_train" : "train.libfm",
+		"libfm_validation" : "validation.libfm",
+		"libfm_finaltrain" : "finaltrain.libfm",
+		"libfm_finaltest" : "finaltest.libfm",
+		"libfm_practrain" : "practrain.libfm",
+		"libfm_practest" : "practest.libfm",
+
+		"hdf_train" : "train.hdf",
+		"hdf_validation" : "validation.hdf",
+		"hdf_finaltrain" : "finaltrain.hdf",
+		"hdf_finaltest" : "finaltest.hdf",
+		"hdf_practrain" : "practrain.hdf",
+		"hdf_practest" : "practest.hdf",
+
+		"prediction" : "prediction.csv"		
+	}
+}

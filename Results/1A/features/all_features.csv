@@ -1,0 +1,1029 @@
+index,name
+0,TARGET@HDAC1
+1,TARGET@PDGFRB
+2,TARGET@PDGFRA
+3,TARGET@HDAC2
+4,TARGET@HDAC6
+5,TARGET@DHFR
+6,TARGET@HDAC8
+7,TARGET@EGFR
+8,TARGET@HDAC3
+9,TARGET@MAP2K1
+10,TARGET@AKT1
+11,TARGET@AKT2
+12,TARGET@AKT3
+13,TARGET@RRM1
+14,TARGET@FLT3
+15,TARGET@CDK1
+16,TARGET@Proteasome
+17,TARGET@microtubule
+18,TARGET@PIK3CA
+19,TARGET@PIK3CB
+20,TARGET@DNMT1
+21,TARGET@PIK3CD
+22,TARGET@PIK3CG
+23,TARGET@HSP90AB1
+24,TARGET@AURKA
+25,TARGET@WEE1
+26,TARGET@TOP2B
+27,TARGET@KDR
+28,TARGET@TOP2A
+29,TARGET@ERBB2
+30,TARGET@SRC
+31,TARGET@NR3C1
+32,TARGET@DNA
+33,TARGET@FNTA
+34,TARGET@FNTB
+35,TARGET@PRKAB1
+36,TARGET@TOP1MT
+37,TARGET@ABL
+38,TARGET@PARP1
+39,TARGET@PARP2
+40,TARGET@Gamma secretase
+41,TARGET@PDGFR
+42,TARGET@AR
+43,TARGET@MTOR
+44,TARGET@HSP90AA1
+45,TARGET@PGGT1B
+46,TARGET@TUBB
+47,TARGET@TOP1
+48,TARGET@KIT
+49,TARGET@MAP2K2
+50,TARGET@TYMS
+51,TARGET@CDK2
+52,TARGET@CDK5
+53,TARGET@CMPK1
+54,TARGET@CDK9
+55,TARGET@CHEK1
+56,IC50@diff
+57,IC50@sum
+58,einf@diff
+59,einf@sum
+60,MUTATION@BCL2L1
+61,MUTATION@HDAC1
+62,MUTATION@ITCH
+63,MUTATION@CASP3
+64,MUTATION@CASP10
+65,MUTATION@AKT1
+66,MUTATION@AKT2
+67,MUTATION@HDAC2
+68,MUTATION@RB1
+69,MUTATION@DAB2
+70,MUTATION@MLST8
+71,MUTATION@MAP3K2
+72,MUTATION@PIK3CA
+73,MUTATION@RBPJ
+74,MUTATION@MAP3K1
+75,MUTATION@MAP3K4
+76,MUTATION@MAP3K5
+77,MUTATION@CDH1
+78,MUTATION@MYC
+79,MUTATION@KRAS
+80,MUTATION@CUL1
+81,MUTATION@BRCA1
+82,MUTATION@ERBB3
+83,MUTATION@IGF1R
+84,MUTATION@BRCA2
+85,MUTATION@ERBB4
+86,MUTATION@BAD
+87,MUTATION@DLEC1
+88,MUTATION@ARRDC1
+89,MUTATION@RFNG
+90,MUTATION@MDM2
+91,MUTATION@MDM4
+92,MUTATION@FGFR1
+93,MUTATION@TERT
+94,MUTATION@CCND1
+95,MUTATION@CXCL8
+96,MUTATION@CCND2
+97,MUTATION@ERBB2
+98,MUTATION@CSF1
+99,MUTATION@KIT
+100,MUTATION@SPEN
+101,MUTATION@PTEN
+102,MUTATION@CTBP1
+103,MUTATION@CTBP2
+104,MUTATION@PLAGL1
+105,MUTATION@KDM5A
+106,MUTATION@SLC19A1
+107,MUTATION@MMP14
+108,MUTATION@MMP15
+109,MUTATION@MMP16
+110,MUTATION@MMP17
+111,MUTATION@MMP10
+112,MUTATION@MMP11
+113,MUTATION@MMP12
+114,MUTATION@MMP13
+115,MUTATION@RASSF1
+116,MUTATION@CDKN1B
+117,MUTATION@CDKN1A
+118,MUTATION@HLA-G
+119,MUTATION@MMP19
+120,MUTATION@HIF1A
+121,MUTATION@NCSTN
+122,MUTATION@BCL2
+123,MUTATION@PSENEN
+124,MUTATION@RICTOR
+125,MUTATION@MAML2
+126,MUTATION@MAML3
+127,MUTATION@MAML1
+128,MUTATION@RAF1
+129,MUTATION@CCNE1
+130,MUTATION@CDK2
+131,MUTATION@RBPJL
+132,MUTATION@AKT1S1
+133,MUTATION@JAK2
+134,MUTATION@PIK3R2
+135,MUTATION@PIK3R1
+136,MUTATION@JAK1
+137,MUTATION@MTOR
+138,MUTATION@OPCML
+139,MUTATION@GSK3B
+140,MUTATION@TGFBR2
+141,MUTATION@CHEK1
+142,MUTATION@PDGFB
+143,MUTATION@IGF1
+144,MUTATION@CDK6
+145,MUTATION@CDC25A
+146,MUTATION@PARP1
+147,MUTATION@CHUK
+148,MUTATION@MAP2K3
+149,MUTATION@VEGFA
+150,MUTATION@VEGFB
+151,MUTATION@EIF4E
+152,MUTATION@WFDC2
+153,MUTATION@EIF5A2
+154,MUTATION@FGF1
+155,MUTATION@RPS6KA1
+156,MUTATION@RPS6KA2
+157,MUTATION@RHEB
+158,MUTATION@TP53
+159,MUTATION@ITGAV
+160,MUTATION@EIF4EBP1
+161,MUTATION@CASP6
+162,MUTATION@MAP3K3
+163,MUTATION@HES1
+164,MUTATION@HES2
+165,MUTATION@HES4
+166,MUTATION@HES5
+167,MUTATION@HES7
+168,MUTATION@DTX3L
+169,MUTATION@PDGFRB
+170,MUTATION@PDGFRA
+171,MUTATION@CIR1
+172,MUTATION@MFNG
+173,MUTATION@TGFB1
+174,MUTATION@RPS6KB1
+175,MUTATION@ATM
+176,MUTATION@MAPK14
+177,MUTATION@RPS6
+178,MUTATION@ATR
+179,MUTATION@MAPK12
+180,MUTATION@TSC2
+181,MUTATION@NCOR2
+182,MUTATION@TSC1
+183,MUTATION@APH1B
+184,MUTATION@APH1A
+185,MUTATION@STAT3
+186,MUTATION@STAT2
+187,MUTATION@STAT1
+188,MUTATION@MAPK3
+189,MUTATION@PSEN2
+190,MUTATION@PSEN1
+191,MUTATION@CSF1R
+192,MUTATION@RPS6KB2
+193,MUTATION@FANCF
+194,MUTATION@SPARC
+195,MUTATION@MAPK1
+196,MUTATION@MAPK6
+197,MUTATION@MAPK7
+198,MUTATION@MAPK4
+199,MUTATION@NFKB1
+200,MUTATION@MAPK8
+201,MUTATION@LFNG
+202,MUTATION@HRAS
+203,MUTATION@KDR
+204,MUTATION@FBXW7
+205,MUTATION@SRC
+206,MUTATION@TGFBR1
+207,MUTATION@RBL1
+208,MUTATION@RBL2
+209,MUTATION@CCNB1
+210,MUTATION@DLL1
+211,MUTATION@DLL3
+212,MUTATION@DLL4
+213,MUTATION@EP300
+214,MUTATION@HEY2
+215,MUTATION@NFKB2
+216,MUTATION@HEY1
+217,MUTATION@FOXO3
+218,MUTATION@MAPK9
+219,MUTATION@MAP2K1
+220,MUTATION@NRARP
+221,MUTATION@STAT5B
+222,MUTATION@STAT5A
+223,MUTATION@CDK4
+224,MUTATION@APAF1
+225,MUTATION@RAD51
+226,MUTATION@WWOX
+227,MUTATION@HEYL
+228,MUTATION@DIRAS3
+229,MUTATION@PEG3
+230,MUTATION@DTX4
+231,MUTATION@CDKN2B
+232,MUTATION@PTK2
+233,MUTATION@DTX1
+234,MUTATION@DTX2
+235,MUTATION@DTX3
+236,MUTATION@MSH2
+237,MUTATION@MAP2K4
+238,MUTATION@EGFR
+239,MUTATION@ADAM10
+240,MUTATION@MAP2K2
+241,MUTATION@FOXO1
+242,MUTATION@CDKN2A
+243,MUTATION@CASP8
+244,MUTATION@MAP2K5
+245,MUTATION@ADAM17
+246,MUTATION@NOTCH3
+247,MUTATION@RPTOR
+248,MUTATION@CCNA1
+249,MUTATION@FAS
+250,MUTATION@FOLR1
+251,MUTATION@MLH1
+252,MUTATION@SNW1
+253,MUTATION@AURKA
+254,MUTATION@JAG2
+255,MUTATION@JAG1
+256,MUTATION@NUMBL
+257,MUTATION@PDGFA
+258,MUTATION@ITGB3
+259,MUTATION@MDC1
+260,MUTATION@TP53BP1
+261,MUTATION@MMP28
+262,MUTATION@NUMB
+263,MUTATION@PDPK1
+264,MUTATION@MMP25
+265,MUTATION@MMP24
+266,MUTATION@MMP27
+267,MUTATION@MMP26
+268,MUTATION@MMP21
+269,MUTATION@E2F7
+270,MUTATION@CASP7
+271,MUTATION@E2F5
+272,MUTATION@E2F4
+273,MUTATION@E2F3
+274,MUTATION@E2F2
+275,MUTATION@E2F1
+276,MUTATION@NOTCH4
+277,MUTATION@CASP9
+278,MUTATION@RAB25
+279,MUTATION@NOTCH1
+280,MUTATION@NOTCH2
+281,MUTATION@E2F8
+282,MUTATION@ARL11
+283,MUTATION@BRAF
+284,MUTATION@MMP9
+285,MUTATION@MMP7
+286,MUTATION@FOLR3
+287,MUTATION@MMP2
+288,MUTATION@MMP3
+289,MUTATION@FOLR2
+290,MUTATION@MMP1
+291,CNV_angiogenesis@VEGFA
+292,CNV_angiogenesis@VEGFA.1
+293,CNV_angiogenesis@VEGFB
+294,CNV_angiogenesis@VEGFB.1
+295,CNV_angiogenesis@KDR
+296,CNV_angiogenesis@KDR.1
+297,CNV_angiogenesis@CXCL8
+298,CNV_angiogenesis@CXCL8.1
+299,CNV_angiogenesis@CXCR1
+300,CNV_angiogenesis@CXCR1.1
+301,CNV_angiogenesis@CXCR2
+302,CNV_angiogenesis@CXCR2.1
+303,CNV_survival_cell death@NFKB1
+304,CNV_survival_cell death@NFKB1.1
+305,CNV_survival_cell death@NFKB2
+306,CNV_survival_cell death@NFKB2.1
+307,CNV_survival_cell death@CHUK
+308,CNV_survival_cell death@CHUK.1
+309,CNV_survival_cell death@DIRAS3
+310,CNV_survival_cell death@DIRAS3.1
+311,CNV_survival_cell death@FAS
+312,CNV_survival_cell death@FAS.1
+313,CNV_survival_cell death@HLA-G
+314,CNV_survival_cell death@HLA-G.1
+315,CNV_survival_cell death@BAD
+316,CNV_survival_cell death@BAD.1
+317,CNV_survival_cell death@BCL2
+318,CNV_survival_cell death@BCL2.1
+319,CNV_survival_cell death@BCL2L1
+320,CNV_survival_cell death@BCL2L1.1
+321,CNV_survival_cell death@APAF1
+322,CNV_survival_cell death@APAF1.1
+323,CNV_survival_cell death@CASP9
+324,CNV_survival_cell death@CASP9.1
+325,CNV_survival_cell death@CASP8
+326,CNV_survival_cell death@CASP8.1
+327,CNV_survival_cell death@CASP10
+328,CNV_survival_cell death@CASP10.1
+329,CNV_survival_cell death@CASP3
+330,CNV_survival_cell death@CASP3.1
+331,CNV_survival_cell death@CASP6
+332,CNV_survival_cell death@CASP6.1
+333,CNV_survival_cell death@CASP7
+334,CNV_survival_cell death@CASP7.1
+335,CNV_survival_cell death@GSK3B
+336,CNV_survival_cell death@GSK3B.1
+337,CNV_survival_cell death@ARL11
+338,CNV_survival_cell death@ARL11.1
+339,CNV_survival_cell death@WWOX
+340,CNV_survival_cell death@WWOX.1
+341,CNV_survival_cell death@PEG3
+342,CNV_survival_cell death@PEG3.1
+343,CNV_survival_cell death@TGFB1
+344,CNV_survival_cell death@TGFB1.1
+345,CNV_survival_cell death@TGFBR1
+346,CNV_survival_cell death@TGFBR1.1
+347,CNV_survival_cell death@TGFBR2
+348,CNV_survival_cell death@TGFBR2.1
+349,CNV_p53 signaling@TP53
+350,CNV_p53 signaling@TP53.1
+351,CNV_p53 signaling@MDM2
+352,CNV_p53 signaling@MDM2.1
+353,CNV_p53 signaling@MDM4
+354,CNV_p53 signaling@MDM4.1
+355,CNV_p53 signaling@CDKN2A
+356,CNV_p53 signaling@CDKN2A.1
+357,CNV_p53 signaling@CDKN2B
+358,CNV_p53 signaling@CDKN2B.1
+359,CNV_p53 signaling@TP53BP1
+360,CNV_p53 signaling@TP53BP1.1
+361,CNV_Cell Cycle Control@RB1
+362,CNV_Cell Cycle Control@RB1.1
+363,CNV_Cell Cycle Control@RBL1
+364,CNV_Cell Cycle Control@RBL1.1
+365,CNV_Cell Cycle Control@RBL2
+366,CNV_Cell Cycle Control@RBL2.1
+367,CNV_Cell Cycle Control@CCNA1
+368,CNV_Cell Cycle Control@CCNA1.1
+369,CNV_Cell Cycle Control@CCNB1
+370,CNV_Cell Cycle Control@CCNB1.1
+371,CNV_Cell Cycle Control@CDK1
+372,CNV_Cell Cycle Control@CDK1.1
+373,CNV_Cell Cycle Control@CCNE1
+374,CNV_Cell Cycle Control@CCNE1.1
+375,CNV_Cell Cycle Control@CDK2
+376,CNV_Cell Cycle Control@CDK2.1
+377,CNV_Cell Cycle Control@CDC25A
+378,CNV_Cell Cycle Control@CDC25A.1
+379,CNV_Cell Cycle Control@CCND1
+380,CNV_Cell Cycle Control@CCND1.1
+381,CNV_Cell Cycle Control@CDK4
+382,CNV_Cell Cycle Control@CDK4.1
+383,CNV_Cell Cycle Control@CDK6
+384,CNV_Cell Cycle Control@CDK6.1
+385,CNV_Cell Cycle Control@CCND2
+386,CNV_Cell Cycle Control@CCND2.1
+387,CNV_Cell Cycle Control@CDKN2A
+388,CNV_Cell Cycle Control@CDKN2A.1
+389,CNV_Cell Cycle Control@CDKN2B
+390,CNV_Cell Cycle Control@CDKN2B.1
+391,CNV_Cell Cycle Control@MYC
+392,CNV_Cell Cycle Control@MYC.1
+393,CNV_Cell Cycle Control@CDKN1A
+394,CNV_Cell Cycle Control@CDKN1A.1
+395,CNV_Cell Cycle Control@CDKN1B
+396,CNV_Cell Cycle Control@CDKN1B.1
+397,CNV_Cell Cycle Control@E2F1
+398,CNV_Cell Cycle Control@E2F1.1
+399,CNV_Cell Cycle Control@E2F2
+400,CNV_Cell Cycle Control@E2F2.1
+401,CNV_Cell Cycle Control@E2F3
+402,CNV_Cell Cycle Control@E2F3.1
+403,CNV_Cell Cycle Control@E2F4
+404,CNV_Cell Cycle Control@E2F4.1
+405,CNV_Cell Cycle Control@E2F5
+406,CNV_Cell Cycle Control@E2F5.1
+407,CNV_Cell Cycle Control@E2F6
+408,CNV_Cell Cycle Control@E2F6.1
+409,CNV_Cell Cycle Control@E2F7
+410,CNV_Cell Cycle Control@E2F7.1
+411,CNV_Cell Cycle Control@E2F8
+412,CNV_Cell Cycle Control@E2F8.1
+413,CNV_Cell Cycle Control@SRC
+414,CNV_Cell Cycle Control@SRC.1
+415,CNV_Cell Cycle Control@JAK1
+416,CNV_Cell Cycle Control@JAK1.1
+417,CNV_Cell Cycle Control@JAK2
+418,CNV_Cell Cycle Control@JAK2.1
+419,CNV_Cell Cycle Control@STAT1
+420,CNV_Cell Cycle Control@STAT1.1
+421,CNV_Cell Cycle Control@STAT2
+422,CNV_Cell Cycle Control@STAT2.1
+423,CNV_Cell Cycle Control@STAT3
+424,CNV_Cell Cycle Control@STAT3.1
+425,CNV_Cell Cycle Control@STAT5A
+426,CNV_Cell Cycle Control@STAT5A.1
+427,CNV_Cell Cycle Control@STAT5B
+428,CNV_Cell Cycle Control@STAT5B.1
+429,CNV_ras raf mek erk signaling@KRAS
+430,CNV_ras raf mek erk signaling@KRAS.1
+431,CNV_ras raf mek erk signaling@HRAS
+432,CNV_ras raf mek erk signaling@HRAS.1
+433,CNV_ras raf mek erk signaling@BRAF
+434,CNV_ras raf mek erk signaling@BRAF.1
+435,CNV_ras raf mek erk signaling@RAF1
+436,CNV_ras raf mek erk signaling@RAF1.1
+437,CNV_ras raf mek erk signaling@MAP3K1
+438,CNV_ras raf mek erk signaling@MAP3K1.1
+439,CNV_ras raf mek erk signaling@MAP3K2
+440,CNV_ras raf mek erk signaling@MAP3K2.1
+441,CNV_ras raf mek erk signaling@MAP3K3
+442,CNV_ras raf mek erk signaling@MAP3K3.1
+443,CNV_ras raf mek erk signaling@MAP3K4
+444,CNV_ras raf mek erk signaling@MAP3K4.1
+445,CNV_ras raf mek erk signaling@MAP3K5
+446,CNV_ras raf mek erk signaling@MAP3K5.1
+447,CNV_ras raf mek erk signaling@MAP2K1
+448,CNV_ras raf mek erk signaling@MAP2K1.1
+449,CNV_ras raf mek erk signaling@MAP2K2
+450,CNV_ras raf mek erk signaling@MAP2K2.1
+451,CNV_ras raf mek erk signaling@MAP2K3
+452,CNV_ras raf mek erk signaling@MAP2K3.1
+453,CNV_ras raf mek erk signaling@MAP2K4
+454,CNV_ras raf mek erk signaling@MAP2K4.1
+455,CNV_ras raf mek erk signaling@MAP2K5
+456,CNV_ras raf mek erk signaling@MAP2K5.1
+457,CNV_ras raf mek erk signaling@MAPK1
+458,CNV_ras raf mek erk signaling@MAPK1.1
+459,CNV_ras raf mek erk signaling@MAPK3
+460,CNV_ras raf mek erk signaling@MAPK3.1
+461,CNV_ras raf mek erk signaling@MAPK4
+462,CNV_ras raf mek erk signaling@MAPK4.1
+463,CNV_ras raf mek erk signaling@MAPK6
+464,CNV_ras raf mek erk signaling@MAPK6.1
+465,CNV_ras raf mek erk signaling@MAPK7
+466,CNV_ras raf mek erk signaling@MAPK7.1
+467,CNV_ras raf mek erk signaling@MAPK8
+468,CNV_ras raf mek erk signaling@MAPK8.1
+469,CNV_ras raf mek erk signaling@MAPK9
+470,CNV_ras raf mek erk signaling@MAPK9.1
+471,CNV_ras raf mek erk signaling@MAPK12
+472,CNV_ras raf mek erk signaling@MAPK12.1
+473,CNV_ras raf mek erk signaling@MAPK14
+474,CNV_ras raf mek erk signaling@MAPK14.1
+475,CNV_ras raf mek erk signaling@DAB2
+476,CNV_ras raf mek erk signaling@DAB2.1
+477,CNV_ras raf mek erk signaling@RASSF1
+478,CNV_ras raf mek erk signaling@RASSF1.1
+479,CNV_ras raf mek erk signaling@RAB25
+480,CNV_ras raf mek erk signaling@RAB25.1
+481,CNV_telomere maintenance@TERC
+482,CNV_telomere maintenance@TERC.1
+483,CNV_telomere maintenance@TERT
+484,CNV_telomere maintenance@TERT.1
+485,CNV_pi3k_akt_mtor_signaling@PIK3CA
+486,CNV_pi3k_akt_mtor_signaling@PIK3CA.1
+487,CNV_pi3k_akt_mtor_signaling@PIK3R1
+488,CNV_pi3k_akt_mtor_signaling@PIK3R1.1
+489,CNV_pi3k_akt_mtor_signaling@PIK3R2
+490,CNV_pi3k_akt_mtor_signaling@PIK3R2.1
+491,CNV_pi3k_akt_mtor_signaling@PTEN
+492,CNV_pi3k_akt_mtor_signaling@PTEN.1
+493,CNV_pi3k_akt_mtor_signaling@PDPK1
+494,CNV_pi3k_akt_mtor_signaling@PDPK1.1
+495,CNV_pi3k_akt_mtor_signaling@AKT1
+496,CNV_pi3k_akt_mtor_signaling@AKT1.1
+497,CNV_pi3k_akt_mtor_signaling@AKT2
+498,CNV_pi3k_akt_mtor_signaling@AKT2.1
+499,CNV_pi3k_akt_mtor_signaling@FOXO1
+500,CNV_pi3k_akt_mtor_signaling@FOXO1.1
+501,CNV_pi3k_akt_mtor_signaling@FOXO3
+502,CNV_pi3k_akt_mtor_signaling@FOXO3.1
+503,CNV_pi3k_akt_mtor_signaling@MTOR
+504,CNV_pi3k_akt_mtor_signaling@MTOR.1
+505,CNV_pi3k_akt_mtor_signaling@RICTOR
+506,CNV_pi3k_akt_mtor_signaling@RICTOR.1
+507,CNV_pi3k_akt_mtor_signaling@TSC1
+508,CNV_pi3k_akt_mtor_signaling@TSC1.1
+509,CNV_pi3k_akt_mtor_signaling@TSC2
+510,CNV_pi3k_akt_mtor_signaling@TSC2.1
+511,CNV_pi3k_akt_mtor_signaling@RHEB
+512,CNV_pi3k_akt_mtor_signaling@RHEB.1
+513,CNV_pi3k_akt_mtor_signaling@AKT1S1
+514,CNV_pi3k_akt_mtor_signaling@AKT1S1.1
+515,CNV_pi3k_akt_mtor_signaling@RPTOR
+516,CNV_pi3k_akt_mtor_signaling@RPTOR.1
+517,CNV_pi3k_akt_mtor_signaling@MLST8
+518,CNV_pi3k_akt_mtor_signaling@MLST8.1
+519,CNV_other growth_proliferation@CSF1
+520,CNV_other growth_proliferation@CSF1.1
+521,CNV_other growth_proliferation@CSF1R
+522,CNV_other growth_proliferation@CSF1R.1
+523,CNV_other growth_proliferation@IGF1
+524,CNV_other growth_proliferation@IGF1.1
+525,CNV_other growth_proliferation@IGF1R
+526,CNV_other growth_proliferation@IGF1R.1
+527,CNV_other growth_proliferation@FGF1
+528,CNV_other growth_proliferation@FGF1.1
+529,CNV_other growth_proliferation@FGFR1
+530,CNV_other growth_proliferation@FGFR1.1
+531,CNV_other growth_proliferation@AURKA
+532,CNV_other growth_proliferation@AURKA.1
+533,CNV_other growth_proliferation@DLEC1
+534,CNV_other growth_proliferation@DLEC1.1
+535,CNV_other growth_proliferation@PLAGL1
+536,CNV_other growth_proliferation@PLAGL1.1
+537,CNV_other growth_proliferation@OPCML
+538,CNV_other growth_proliferation@OPCML.1
+539,CNV_other growth_proliferation@DPH1
+540,CNV_other growth_proliferation@DPH1.1
+541,CNV_RTK signaling family@EGFR
+542,CNV_RTK signaling family@EGFR.1
+543,CNV_RTK signaling family@ERBB2
+544,CNV_RTK signaling family@ERBB2.1
+545,CNV_RTK signaling family@ERBB3
+546,CNV_RTK signaling family@ERBB3.1
+547,CNV_RTK signaling family@ERBB4
+548,CNV_RTK signaling family@ERBB4.1
+549,CNV_RTK signaling family@PDGFA
+550,CNV_RTK signaling family@PDGFA.1
+551,CNV_RTK signaling family@PDGFB
+552,CNV_RTK signaling family@PDGFB.1
+553,CNV_RTK signaling family@PDGFRA
+554,CNV_RTK signaling family@PDGFRA.1
+555,CNV_RTK signaling family@PDGFRB
+556,CNV_RTK signaling family@PDGFRB.1
+557,CNV_RTK signaling family@KIT
+558,CNV_RTK signaling family@KIT.1
+559,CNV_RTK signaling family@FGF1
+560,CNV_RTK signaling family@FGF1.1
+561,CNV_RTK signaling family@FGFR1
+562,CNV_RTK signaling family@FGFR1.1
+563,CNV_RTK signaling family@IGF1
+564,CNV_RTK signaling family@IGF1.1
+565,CNV_RTK signaling family@IGF1R
+566,CNV_RTK signaling family@IGF1R.1
+567,CNV_RTK signaling family@VEGFA
+568,CNV_RTK signaling family@VEGFA.1
+569,CNV_RTK signaling family@VEGFB
+570,CNV_RTK signaling family@VEGFB.1
+571,CNV_RTK signaling family@KDR
+572,CNV_RTK signaling family@KDR.1
+573,CNV_Notch_signaling@ADAM10
+574,CNV_Notch_signaling@ADAM10.1
+575,CNV_Notch_signaling@ADAM17
+576,CNV_Notch_signaling@ADAM17.1
+577,CNV_Notch_signaling@APH1A
+578,CNV_Notch_signaling@APH1A.1
+579,CNV_Notch_signaling@APH1B
+580,CNV_Notch_signaling@APH1B.1
+581,CNV_Notch_signaling@ARRDC1
+582,CNV_Notch_signaling@ARRDC1.1
+583,CNV_Notch_signaling@CIR1
+584,CNV_Notch_signaling@CIR1.1
+585,CNV_Notch_signaling@CTBP1
+586,CNV_Notch_signaling@CTBP1.1
+587,CNV_Notch_signaling@CTBP2
+588,CNV_Notch_signaling@CTBP2.1
+589,CNV_Notch_signaling@CUL1
+590,CNV_Notch_signaling@CUL1.1
+591,CNV_Notch_signaling@DLL1
+592,CNV_Notch_signaling@DLL1.1
+593,CNV_Notch_signaling@DLL3
+594,CNV_Notch_signaling@DLL3.1
+595,CNV_Notch_signaling@DLL4
+596,CNV_Notch_signaling@DLL4.1
+597,CNV_Notch_signaling@DTX1
+598,CNV_Notch_signaling@DTX1.1
+599,CNV_Notch_signaling@DTX2
+600,CNV_Notch_signaling@DTX2.1
+601,CNV_Notch_signaling@DTX3
+602,CNV_Notch_signaling@DTX3.1
+603,CNV_Notch_signaling@DTX3L
+604,CNV_Notch_signaling@DTX3L.1
+605,CNV_Notch_signaling@DTX4
+606,CNV_Notch_signaling@DTX4.1
+607,CNV_Notch_signaling@EP300
+608,CNV_Notch_signaling@EP300.1
+609,CNV_Notch_signaling@FBXW7
+610,CNV_Notch_signaling@FBXW7.1
+611,CNV_Notch_signaling@HDAC1
+612,CNV_Notch_signaling@HDAC1.1
+613,CNV_Notch_signaling@HDAC2
+614,CNV_Notch_signaling@HDAC2.1
+615,CNV_Notch_signaling@HES1
+616,CNV_Notch_signaling@HES1.1
+617,CNV_Notch_signaling@HES5
+618,CNV_Notch_signaling@HES5.1
+619,CNV_Notch_signaling@HEYL
+620,CNV_Notch_signaling@HEYL.1
+621,CNV_Notch_signaling@ITCH
+622,CNV_Notch_signaling@ITCH.1
+623,CNV_Notch_signaling@JAG1
+624,CNV_Notch_signaling@JAG1.1
+625,CNV_Notch_signaling@JAG2
+626,CNV_Notch_signaling@JAG2.1
+627,CNV_Notch_signaling@KDM5A
+628,CNV_Notch_signaling@KDM5A.1
+629,CNV_Notch_signaling@LFNG
+630,CNV_Notch_signaling@LFNG.1
+631,CNV_Notch_signaling@MAML1
+632,CNV_Notch_signaling@MAML1.1
+633,CNV_Notch_signaling@MAML2
+634,CNV_Notch_signaling@MAML2.1
+635,CNV_Notch_signaling@MAML3
+636,CNV_Notch_signaling@MAML3.1
+637,CNV_Notch_signaling@MFNG
+638,CNV_Notch_signaling@MFNG.1
+639,CNV_Notch_signaling@NCOR2
+640,CNV_Notch_signaling@NCOR2.1
+641,CNV_Notch_signaling@NCSTN
+642,CNV_Notch_signaling@NCSTN.1
+643,CNV_Notch_signaling@NOTCH1
+644,CNV_Notch_signaling@NOTCH1.1
+645,CNV_Notch_signaling@NOTCH2
+646,CNV_Notch_signaling@NOTCH2.1
+647,CNV_Notch_signaling@NOTCH3
+648,CNV_Notch_signaling@NOTCH3.1
+649,CNV_Notch_signaling@NOTCH4
+650,CNV_Notch_signaling@NOTCH4.1
+651,CNV_Notch_signaling@NRARP
+652,CNV_Notch_signaling@NRARP.1
+653,CNV_Notch_signaling@NUMB
+654,CNV_Notch_signaling@NUMB.1
+655,CNV_Notch_signaling@NUMBL
+656,CNV_Notch_signaling@NUMBL.1
+657,CNV_Notch_signaling@PSEN1
+658,CNV_Notch_signaling@PSEN1.1
+659,CNV_Notch_signaling@PSEN2
+660,CNV_Notch_signaling@PSEN2.1
+661,CNV_Notch_signaling@PSENEN
+662,CNV_Notch_signaling@PSENEN.1
+663,CNV_Notch_signaling@RBPJ
+664,CNV_Notch_signaling@RBPJ.1
+665,CNV_Notch_signaling@RBPJL
+666,CNV_Notch_signaling@RBPJL.1
+667,CNV_Notch_signaling@RFNG
+668,CNV_Notch_signaling@RFNG.1
+669,CNV_Notch_signaling@SNW1
+670,CNV_Notch_signaling@SNW1.1
+671,CNV_Notch_signaling@SPEN
+672,CNV_Notch_signaling@SPEN.1
+673,CNV_Notch_signaling@HES2
+674,CNV_Notch_signaling@HES2.1
+675,CNV_Notch_signaling@HES4
+676,CNV_Notch_signaling@HES4.1
+677,CNV_Notch_signaling@HES7
+678,CNV_Notch_signaling@HES7.1
+679,CNV_Notch_signaling@HEY1
+680,CNV_Notch_signaling@HEY1.1
+681,CNV_Notch_signaling@HEY2
+682,CNV_Notch_signaling@HEY2.1
+683,CNV_invasion and metastasis@MMP1
+684,CNV_invasion and metastasis@MMP1.1
+685,CNV_invasion and metastasis@MMP2
+686,CNV_invasion and metastasis@MMP2.1
+687,CNV_invasion and metastasis@MMP3
+688,CNV_invasion and metastasis@MMP3.1
+689,CNV_invasion and metastasis@MMP7
+690,CNV_invasion and metastasis@MMP7.1
+691,CNV_invasion and metastasis@MMP9
+692,CNV_invasion and metastasis@MMP9.1
+693,CNV_invasion and metastasis@MMP10
+694,CNV_invasion and metastasis@MMP10.1
+695,CNV_invasion and metastasis@MMP11
+696,CNV_invasion and metastasis@MMP11.1
+697,CNV_invasion and metastasis@MMP12
+698,CNV_invasion and metastasis@MMP12.1
+699,CNV_invasion and metastasis@MMP13
+700,CNV_invasion and metastasis@MMP13.1
+701,CNV_invasion and metastasis@MMP14
+702,CNV_invasion and metastasis@MMP14.1
+703,CNV_invasion and metastasis@MMP15
+704,CNV_invasion and metastasis@MMP15.1
+705,CNV_invasion and metastasis@MMP16
+706,CNV_invasion and metastasis@MMP16.1
+707,CNV_invasion and metastasis@MMP17
+708,CNV_invasion and metastasis@MMP17.1
+709,CNV_invasion and metastasis@MMP19
+710,CNV_invasion and metastasis@MMP19.1
+711,CNV_invasion and metastasis@MMP21
+712,CNV_invasion and metastasis@MMP21.1
+713,CNV_invasion and metastasis@MMP23B
+714,CNV_invasion and metastasis@MMP23B.1
+715,CNV_invasion and metastasis@MMP24
+716,CNV_invasion and metastasis@MMP24.1
+717,CNV_invasion and metastasis@MMP25
+718,CNV_invasion and metastasis@MMP25.1
+719,CNV_invasion and metastasis@MMP26
+720,CNV_invasion and metastasis@MMP26.1
+721,CNV_invasion and metastasis@MMP27
+722,CNV_invasion and metastasis@MMP27.1
+723,CNV_invasion and metastasis@MMP28
+724,CNV_invasion and metastasis@MMP28.1
+725,CNV_invasion and metastasis@ITGB3
+726,CNV_invasion and metastasis@ITGB3.1
+727,CNV_invasion and metastasis@ITGAV
+728,CNV_invasion and metastasis@ITGAV.1
+729,CNV_invasion and metastasis@PTK2
+730,CNV_invasion and metastasis@PTK2.1
+731,CNV_invasion and metastasis@CDH1
+732,CNV_invasion and metastasis@CDH1.1
+733,CNV_invasion and metastasis@SPARC
+734,CNV_invasion and metastasis@SPARC.1
+735,CNV_invasion and metastasis@WFDC2
+736,CNV_invasion and metastasis@WFDC2.1
+737,CNV_DNA damage response@CHEK1
+738,CNV_DNA damage response@CHEK1.1
+739,CNV_DNA damage response@CHEK2
+740,CNV_DNA damage response@CHEK2.1
+741,CNV_DNA damage response@RAD51
+742,CNV_DNA damage response@RAD51.1
+743,CNV_DNA damage response@BRCA1
+744,CNV_DNA damage response@BRCA1.1
+745,CNV_DNA damage response@BRCA2
+746,CNV_DNA damage response@BRCA2.1
+747,CNV_DNA damage response@MLH1
+748,CNV_DNA damage response@MLH1.1
+749,CNV_DNA damage response@MSH2
+750,CNV_DNA damage response@MSH2.1
+751,CNV_DNA damage response@ATM
+752,CNV_DNA damage response@ATM.1
+753,CNV_DNA damage response@ATR
+754,CNV_DNA damage response@ATR.1
+755,CNV_DNA damage response@MDC1
+756,CNV_DNA damage response@MDC1.1
+757,CNV_DNA damage response@PARP1
+758,CNV_DNA damage response@PARP1.1
+759,CNV_DNA damage response@FANCF
+760,CNV_DNA damage response@FANCF.1
+761,CNV_folate transport@SLC19A1
+762,CNV_folate transport@SLC19A1.1
+763,CNV_folate transport@FOLR1
+764,CNV_folate transport@FOLR1.1
+765,CNV_folate transport@FOLR2
+766,CNV_folate transport@FOLR2.1
+767,CNV_folate transport@FOLR3
+768,CNV_folate transport@FOLR3.1
+769,CNV_folate transport@IZUMO1R
+770,CNV_folate transport@IZUMO1R.1
+771,CNV_ribosomal protein synthesis@RPS6KA1
+772,CNV_ribosomal protein synthesis@RPS6KA1.1
+773,CNV_ribosomal protein synthesis@RPS6KA2
+774,CNV_ribosomal protein synthesis@RPS6KA2.1
+775,CNV_ribosomal protein synthesis@RPS6KB1
+776,CNV_ribosomal protein synthesis@RPS6KB1.1
+777,CNV_ribosomal protein synthesis@RPS6KB2
+778,CNV_ribosomal protein synthesis@RPS6KB2.1
+779,CNV_ribosomal protein synthesis@EIF5A2
+780,CNV_ribosomal protein synthesis@EIF5A2.1
+781,CNV_ribosomal protein synthesis@EIF4E
+782,CNV_ribosomal protein synthesis@EIF4E.1
+783,CNV_ribosomal protein synthesis@EIF4EBP1
+784,CNV_ribosomal protein synthesis@EIF4EBP1.1
+785,CNV_ribosomal protein synthesis@RPS6
+786,CNV_ribosomal protein synthesis@RPS6.1
+787,CNV_ribosomal protein synthesis@HIF1A
+788,CNV_ribosomal protein synthesis@HIF1A.1
+789,ADDITION_SCORE
+790,GEX_angiognesis@VEGFA
+791,GEX_angiognesis@KDR
+792,GEX_angiognesis@VEGFB
+793,GEX_cell_cycle_control@CDKN1B
+794,GEX_cell_cycle_control@STAT3
+795,GEX_cell_cycle_control@STAT2
+796,GEX_cell_cycle_control@STAT1
+797,GEX_cell_cycle_control@CCNA1
+798,GEX_cell_cycle_control@CCNE1
+799,GEX_cell_cycle_control@CDK2
+800,GEX_cell_cycle_control@RB1
+801,GEX_cell_cycle_control@JAK2
+802,GEX_cell_cycle_control@JAK1
+803,GEX_cell_cycle_control@MYC
+804,GEX_cell_cycle_control@CDKN2B
+805,GEX_cell_cycle_control@SRC
+806,GEX_cell_cycle_control@CDKN2A
+807,GEX_cell_cycle_control@RBL1
+808,GEX_cell_cycle_control@RBL2
+809,GEX_cell_cycle_control@CDC25A
+810,GEX_cell_cycle_control@CCNB1
+811,GEX_cell_cycle_control@E2F7
+812,GEX_cell_cycle_control@E2F5
+813,GEX_cell_cycle_control@E2F3
+814,GEX_cell_cycle_control@E2F2
+815,GEX_cell_cycle_control@E2F1
+816,GEX_cell_cycle_control@CCND1
+817,GEX_cell_cycle_control@CCND2
+818,GEX_cell_cycle_control@E2F8
+819,GEX_cell_cycle_control@STAT5B
+820,GEX_cell_cycle_control@STAT5A
+821,GEX_cell_cycle_control@CDK4
+822,GEX_cell_cycle_control@CDK6
+823,GEX_dna_damage_response@BRCA1
+824,GEX_dna_damage_response@MSH2
+825,GEX_dna_damage_response@ATM
+826,GEX_dna_damage_response@PARP1
+827,GEX_dna_damage_response@MLH1
+828,GEX_dna_damage_response@FANCF
+829,GEX_dna_damage_response@ATR
+830,GEX_dna_damage_response@RAD51
+831,GEX_dna_damage_response@MDC1
+832,GEX_dna_damage_response@CHEK1
+833,GEX_Folate_transport@SLC19A1
+834,GEX_Folate_transport@FOLR1
+835,GEX_Folate_transport@FOLR2
+836,GEX_Folate_transport@FOLR3
+837,GEX_invasion_and_metastasis@MMP14
+838,GEX_invasion_and_metastasis@MMP15
+839,GEX_invasion_and_metastasis@MMP16
+840,GEX_invasion_and_metastasis@MMP17
+841,GEX_invasion_and_metastasis@MMP10
+842,GEX_invasion_and_metastasis@MMP11
+843,GEX_invasion_and_metastasis@MMP12
+844,GEX_invasion_and_metastasis@MMP13
+845,GEX_invasion_and_metastasis@MMP19
+846,GEX_invasion_and_metastasis@PTK2
+847,GEX_invasion_and_metastasis@MMP28
+848,GEX_invasion_and_metastasis@MMP25
+849,GEX_invasion_and_metastasis@MMP24
+850,GEX_invasion_and_metastasis@MMP27
+851,GEX_invasion_and_metastasis@WFDC2
+852,GEX_invasion_and_metastasis@MMP21
+853,GEX_invasion_and_metastasis@MMP26
+854,GEX_invasion_and_metastasis@ITGAV
+855,GEX_invasion_and_metastasis@SPARC
+856,GEX_invasion_and_metastasis@MMP9
+857,GEX_invasion_and_metastasis@CDH1
+858,GEX_invasion_and_metastasis@MMP7
+859,GEX_invasion_and_metastasis@MMP2
+860,GEX_invasion_and_metastasis@MMP3
+861,GEX_invasion_and_metastasis@MMP1
+862,GEX_Notch_signaling@DTX3L
+863,GEX_Notch_signaling@DTX4
+864,GEX_Notch_signaling@CIR1
+865,GEX_Notch_signaling@MFNG
+866,GEX_Notch_signaling@DTX1
+867,GEX_Notch_signaling@DTX2
+868,GEX_Notch_signaling@DTX3
+869,GEX_Notch_signaling@LFNG
+870,GEX_Notch_signaling@NCSTN
+871,GEX_Notch_signaling@ADAM10
+872,GEX_Notch_signaling@HDAC2
+873,GEX_Notch_signaling@NOTCH2
+874,GEX_Notch_signaling@ADAM17
+875,GEX_Notch_signaling@NCOR2
+876,GEX_Notch_signaling@KDM5A
+877,GEX_Notch_signaling@APH1B
+878,GEX_Notch_signaling@APH1A
+879,GEX_Notch_signaling@MAML2
+880,GEX_Notch_signaling@ITCH
+881,GEX_Notch_signaling@MAML1
+882,GEX_Notch_signaling@PSEN2
+883,GEX_Notch_signaling@RBPJ
+884,GEX_Notch_signaling@JAG2
+885,GEX_Notch_signaling@JAG1
+886,GEX_Notch_signaling@CUL1
+887,GEX_Notch_signaling@FBXW7
+888,GEX_Notch_signaling@MAML3
+889,GEX_Notch_signaling@HEYL
+890,GEX_Notch_signaling@DLL1
+891,GEX_Notch_signaling@DLL3
+892,GEX_Notch_signaling@DLL4
+893,GEX_Notch_signaling@ARRDC1
+894,GEX_Notch_signaling@NUMB
+895,GEX_Notch_signaling@HES1
+896,GEX_Notch_signaling@RFNG
+897,GEX_Notch_signaling@EP300
+898,GEX_Notch_signaling@HEY2
+899,GEX_Notch_signaling@CTBP2
+900,GEX_Notch_signaling@HDAC1
+901,GEX_Notch_signaling@HEY1
+902,GEX_Notch_signaling@SNW1
+903,GEX_Notch_signaling@NOTCH4
+904,GEX_Notch_signaling@NOTCH1
+905,GEX_Notch_signaling@NRARP
+906,GEX_Notch_signaling@NOTCH3
+907,GEX_Notch_signaling@SPEN
+908,GEX_Notch_signaling@HES5
+909,GEX_Notch_signaling@CTBP1
+910,GEX_Notch_signaling@HES2
+911,GEX_Notch_signaling@NUMBL
+912,GEX_Notch_signaling@HES4
+913,GEX_Notch_signaling@PSEN1
+914,GEX_Notch_signaling@HES7
+915,GEX_other_growth_proliferation_signaling@IGF1R
+916,GEX_other_growth_proliferation_signaling@IGF1
+917,GEX_other_growth_proliferation_signaling@CSF1R
+918,GEX_other_growth_proliferation_signaling@CSF1
+919,GEX_other_growth_proliferation_signaling@DLEC1
+920,GEX_other_growth_proliferation_signaling@AURKA
+921,GEX_other_growth_proliferation_signaling@OPCML
+922,GEX_other_growth_proliferation_signaling@PLAGL1
+923,GEX_other_growth_proliferation_signaling@FGF1
+924,GEX_other_growth_proliferation_signaling@FGFR1
+925,GEX_p53_signaling@CDKN2B
+926,GEX_p53_signaling@CDKN2A
+927,GEX_p53_signaling@TP53
+928,GEX_p53_signaling@TP53BP1
+929,GEX_p53_signaling@MDM2
+930,GEX_p53_signaling@MDM4
+931,GEX_pi3k_akt_mtor_signaling@FOXO3
+932,GEX_pi3k_akt_mtor_signaling@AKT1
+933,GEX_pi3k_akt_mtor_signaling@FOXO1
+934,GEX_pi3k_akt_mtor_signaling@MTOR
+935,GEX_pi3k_akt_mtor_signaling@MLST8
+936,GEX_pi3k_akt_mtor_signaling@TSC2
+937,GEX_pi3k_akt_mtor_signaling@TSC1
+938,GEX_pi3k_akt_mtor_signaling@RPTOR
+939,GEX_pi3k_akt_mtor_signaling@RICTOR
+940,GEX_pi3k_akt_mtor_signaling@PIK3CA
+941,GEX_pi3k_akt_mtor_signaling@AKT2
+942,GEX_pi3k_akt_mtor_signaling@PTEN
+943,GEX_pi3k_akt_mtor_signaling@PIK3R2
+944,GEX_pi3k_akt_mtor_signaling@PIK3R1
+945,GEX_pi3k_akt_mtor_signaling@PDPK1
+946,GEX_pi3k_akt_mtor_signaling@RHEB
+947,GEX_ras_raf_mek_erk_signaling@MAPK12
+948,GEX_ras_raf_mek_erk_signaling@RASSF1
+949,GEX_ras_raf_mek_erk_signaling@HRAS
+950,GEX_ras_raf_mek_erk_signaling@MAP2K3
+951,GEX_ras_raf_mek_erk_signaling@MAP2K2
+952,GEX_ras_raf_mek_erk_signaling@MAP2K1
+953,GEX_ras_raf_mek_erk_signaling@MAP2K5
+954,GEX_ras_raf_mek_erk_signaling@MAP2K4
+955,GEX_ras_raf_mek_erk_signaling@RAF1
+956,GEX_ras_raf_mek_erk_signaling@KRAS
+957,GEX_ras_raf_mek_erk_signaling@MAPK14
+958,GEX_ras_raf_mek_erk_signaling@RAB25
+959,GEX_ras_raf_mek_erk_signaling@MAP3K2
+960,GEX_ras_raf_mek_erk_signaling@MAP3K3
+961,GEX_ras_raf_mek_erk_signaling@MAP3K1
+962,GEX_ras_raf_mek_erk_signaling@MAP3K4
+963,GEX_ras_raf_mek_erk_signaling@MAP3K5
+964,GEX_ras_raf_mek_erk_signaling@MAPK3
+965,GEX_ras_raf_mek_erk_signaling@MAPK1
+966,GEX_ras_raf_mek_erk_signaling@MAPK7
+967,GEX_ras_raf_mek_erk_signaling@MAPK4
+968,GEX_ras_raf_mek_erk_signaling@MAPK8
+969,GEX_ras_raf_mek_erk_signaling@MAPK9
+970,GEX_ras_raf_mek_erk_signaling@BRAF
+971,GEX_ribosomal_growth@RPS6KA1
+972,GEX_ribosomal_growth@RPS6KA2
+973,GEX_ribosomal_growth@RPS6KB1
+974,GEX_ribosomal_growth@RPS6KB2
+975,GEX_ribosomal_growth@RPS6
+976,GEX_ribosomal_growth@EIF4EBP1
+977,GEX_ribosomal_growth@EIF4E
+978,GEX_ribosomal_growth@EIF5A2
+979,GEX_rtk_signaling_family@ERBB2
+980,GEX_rtk_signaling_family@ERBB3
+981,GEX_rtk_signaling_family@PDGFB
+982,GEX_rtk_signaling_family@IGF1
+983,GEX_rtk_signaling_family@ERBB4
+984,GEX_rtk_signaling_family@PDGFA
+985,GEX_rtk_signaling_family@EGFR
+986,GEX_rtk_signaling_family@IGF1R
+987,GEX_rtk_signaling_family@VEGFA
+988,GEX_rtk_signaling_family@VEGFB
+989,GEX_rtk_signaling_family@PDGFRA
+990,GEX_rtk_signaling_family@FGF1
+991,GEX_rtk_signaling_family@FGFR1
+992,GEX_rtk_signaling_family@KIT
+993,GEX_rtk_signaling_family@PDGFRB
+994,GEX_rtk_signaling_family@KDR
+995,GEX_survival_cell_death_regulation@BCL2L1
+996,GEX_survival_cell_death_regulation@TGFB1
+997,GEX_survival_cell_death_regulation@TGFBR1
+998,GEX_survival_cell_death_regulation@DIRAS3
+999,GEX_survival_cell_death_regulation@TGFBR2
+1000,GEX_survival_cell_death_regulation@ARL11
+1001,GEX_survival_cell_death_regulation@BAD
+1002,GEX_survival_cell_death_regulation@CASP7
+1003,GEX_survival_cell_death_regulation@CASP9
+1004,GEX_survival_cell_death_regulation@CASP6
+1005,GEX_survival_cell_death_regulation@CASP10
+1006,GEX_survival_cell_death_regulation@CASP3
+1007,GEX_survival_cell_death_regulation@FAS
+1008,GEX_survival_cell_death_regulation@CASP8
+1009,GEX_survival_cell_death_regulation@GSK3B
+1010,GEX_survival_cell_death_regulation@WWOX
+1011,GEX_survival_cell_death_regulation@NFKB1
+1012,GEX_survival_cell_death_regulation@NFKB2
+1013,GEX_survival_cell_death_regulation@APAF1
+1014,GEX_survival_cell_death_regulation@BCL2
+1015,GEX_telomere_maintenance@TERT
+1016,dss@diff
+1017,dss@sum
+1018,ExpectedSynergyScore@mean_CELL_LINE
+1019,ExpectedSynergyScore@median_CELL_LINE
+1020,ExpectedSynergyScore@mean_COMPOUND_A
+1021,ExpectedSynergyScore@median_COMPOUND_A
+1022,ExpectedSynergyScore@mean_COMBINATION_ID
+1023,ExpectedSynergyScore@median_COMBINATION_ID
+1024,ExpectedSynergyScore@mean_CELL_LINE_COMPOUND_A
+1025,ExpectedSynergyScore@median_CELL_LINE_COMPOUND_A
+1026,synthetic_lethality_score
+1027,synthetic_lethality_count
